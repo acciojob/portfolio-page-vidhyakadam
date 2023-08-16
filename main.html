@@ -1,16 +1,40 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header>
+        <nav role="navigation">
+            <ul role="list">
+                <li role="listitem"><a href="#">Home</a></li>
+                <li role="listitem"><a href="#">Portfolio</a></li>
+                <li role="listitem"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 role="heading">John's Portfolio</h1>
+        <img src="profile.jpg" alt="John's Profile Picture" role="img">
+        <p>
+            Welcome to my portfolio! I'm John, a passionate web developer with a focus on accessibility and user experience.
+            Check out some of my work below.
+        </p>
+        <section>
+            <h2 role="heading">Featured Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1: <a href="#">Accessible Website</a></li>
+                <li role="listitem">Project 2: <a href="#">Responsive Web App</a></li>
+                <li role="listitem">Project 3: <a href="#">Interactive UI Design</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 John's Portfolio. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
